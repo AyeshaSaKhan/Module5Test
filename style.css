@@ -1,0 +1,243 @@
+body{
+    background: white;
+}
+h1{
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+h2{
+    color: rgb(95, 87, 87);
+    text-align: center;
+}
+<style>
+
+* {
+
+    padding: 0;
+}
+
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;=
+  }
+  
+  .button1 {
+      border-radius: 25px;  
+      background-color: white;
+      color: black;
+      border: 2px solid #6358c4;
+      line-height: 20px;
+      padding: 10px;
+  }
+  
+  .button1:hover {
+      background-color: #2dc4c4;
+      color: white;
+  }
+  
+  .button2 {
+      border-radius: 25px;  
+      background-color: white;
+      color: black;
+      border: 2px solid #6358c4;
+      line-height: 20px;
+      padding: 10px;
+  }
+  
+  .button2:hover {
+      background-color: #008CBA;
+      color: white;
+  }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+
+    background: linear-gradient(to left, #43cea2, #185a9d);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+
+.firstsection {
+    margin-right: 0%;
+    background-image: url(./images/angelina_jolie_eyes-wallpaper-1920x1200.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+
+.secondsection {
+
+    background: linear-gradient(to right, #4568dc, #4ca1af, #c4e0e5);
+    height: 600px;
+}
+
+.thirdsection {
+    background-color: white;
+    height: 600px;
+}
+
+.fourthsection {
+    background: linear-gradient(to right, #4568dc, #4ca1af, #c4e0e5);
+    height: 600px;
+}
+
+.fifthsection {
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-small {
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    text-align: right;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+</style>
+
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: cornsilk;
+
+}
+
+table{
+    border-spacing: 30px;
+    background: linear-gradient(to right, #4568dc, #4ca1af, #c4e0e5);
+
+}
